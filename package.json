@@ -3,12 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "electron .",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "M.Fathin Halim",
   "license": "ISC",
   "devDependencies": {
+    "@electron-forge/cli": "^7.8.0",
+    "@electron-forge/maker-deb": "^7.8.0",
+    "@electron-forge/maker-rpm": "^7.8.0",
+    "@electron-forge/maker-squirrel": "^7.8.0",
+    "@electron-forge/maker-zip": "^7.8.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.8.0",
+    "@electron-forge/plugin-fuses": "^7.8.0",
+    "@electron-forge/publisher-github": "^7.8.0",
+    "@electron/fuses": "^1.8.0",
     "autoprefixer": "^10.4.21",
     "electron": "^35.2.0",
     "postcss": "^8.5.3",
@@ -28,6 +39,7 @@
     "define-data-property": "^1.1.4",
     "define-properties": "^1.2.1",
     "detect-node": "^2.1.0",
+    "electron-squirrel-startup": "^1.0.1",
     "electron-to-chromium": "^1.5.139",
     "end-of-stream": "^1.4.4",
     "env-paths": "^2.2.1",
@@ -87,5 +99,5 @@
     "yauzl": "^2.10.0"
   },
   "keywords": [],
-  "description": ""
+  "description": "Kamus Bahasa Rejang adalah aplikasi pertama yang dibuat oleh M.Fathin Halim ketika belajar programming. Aplikasi ini telah menjadi sorotan TVRI Nasional yang berjudul 'Anak Kepau'. Aplikasi ini dibuat untuk menerjemahkan bahasa rejang ke bahasa indonesia."
 }
