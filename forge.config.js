@@ -48,7 +48,7 @@ module.exports = {
       config: {
         repository: {
           owner: 'MFathinHalim',
-          name: 'github-repo-name'
+          name: 'KamusRejangDesktop'
         },
         prerelease: false,
         draft: true
